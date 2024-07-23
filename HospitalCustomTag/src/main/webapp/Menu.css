@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url("https://static.vecteezy.com/system/resources/thumbnails/026/977/435/small_2x/healthcare-theme-3d-illustration-of-an-empty-emergency-room-ai-generative-free-photo.jpg")
+		no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.welcome {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.logout {
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.logout input[type="button"] {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.logout input[type="button"]:hover {
+    background-color: #c82333;
+}
+
+.section {
+    margin-top: 20px;
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.section-header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+    margin-bottom: 10px;
+    border-radius: 5px 5px 0 0;
+}
+
+.section-links {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.section-links a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #6c757d;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.section-links a:hover {
+    background-color: #5a6268;
+}
